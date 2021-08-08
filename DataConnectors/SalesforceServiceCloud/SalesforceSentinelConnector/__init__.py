@@ -25,7 +25,8 @@ object =  "EventLogFile"
 interval = "hourly"
 hours_interval = 1
 days_interval = 1
-url = "https://login.salesforce.com/services/oauth2/token"
+#url = "https://login.salesforce.com/services/oauth2/token" "https://caliburnmms--devas09.my.salesforce.com/services/oauth2/token"
+url = "https://caliburnmms--devas09.my.salesforce.com/services/oauth2/token"
 logAnalyticsUri = os.environ.get('logAnalyticsUri')
 
 if ((logAnalyticsUri in (None, '') or str(logAnalyticsUri).isspace())):    
